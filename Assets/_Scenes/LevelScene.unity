@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d407dd50fa78d25488916b2b35ac75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxStartingHp: 1
+  maxStartingHp: 20
   maxStartingMana: 1
   hpText: {fileID: 511379823}
   manaText: {fileID: 1666597590}
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff87a9dfc419ecc4caa246b5b1510ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxStartingHp: 1
+  maxStartingHp: 20
   maxStartingMana: 1
   hpText: {fileID: 78888852}
   manaText: {fileID: 1644841194}
