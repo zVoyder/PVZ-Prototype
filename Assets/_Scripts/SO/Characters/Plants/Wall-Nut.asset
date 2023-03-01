@@ -18,4 +18,4 @@ MonoBehaviour:
   dmg: 0
   mana: 1
   slotType: 1
-  placeInSlot: -1
+  placeInSlot: 4

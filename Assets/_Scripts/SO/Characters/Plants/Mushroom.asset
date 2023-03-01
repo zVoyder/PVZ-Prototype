@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac451dbe7ffb7cf4eade193659d70764, type: 3}
   m_Name: Mushroom
   m_EditorClassIdentifier: 
-  cardPrefab: {fileID: 6826469198357815395, guid: ff8b089dc9d62bb479de358edaf4d264, type: 3}
   cardIcon: {fileID: 21300000, guid: 9f4cc3ec331b7d148a54fcc98df65f29, type: 3}
   characterPrefab: {fileID: 5515950760740639979, guid: 98e80add4c7f95e489e17b27361ffa4b, type: 3}
   hp: 2
   dmg: 2
   mana: 2
   slotType: 2
-  placeInSlot: 1
+  placeInSlot: -1
