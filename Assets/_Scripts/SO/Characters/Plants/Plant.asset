@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac451dbe7ffb7cf4eade193659d70764, type: 3}
+  m_Name: Plant
+  m_EditorClassIdentifier: 
+  cardIcon: {fileID: 21300000, guid: e77f8728c6784624b830bc0767ac25d1, type: 3}
+  characterPrefab: {fileID: 5515950760740639979, guid: 25de56b35d575b044ad6233d497e772f, type: 3}
+  hp: 2
+  dmg: 2
+  mana: 1
+  slotType: 1
+  placeInSlot: 3
