@@ -18,9 +18,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Handlers")]
     public PlayerHandler playerHandler;
-    public Deck playerDeck;
     public EnemyAI enemyAI;
-    //public AI zombie;
 
     [Header("UI")]
     public RectTransform turnButton;
@@ -90,7 +88,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void PlantsTurn()
     {
-        playerDeck.AddCardToHand();
+        playerHandler.Deck.AddCardToHand();
         playerHandler.IncreaseMaxMana();
         playerHandler.FillMana();
         playerHandler.BeginTurn(); // The EndTurn will be called at the end of BeginTurn

@@ -12,7 +12,7 @@ public class PlayerHandler : Contender // Extending the class contender to manag
 {
     [Header("Hand")]
     [Range(0, 100f)] public float dragSpeed = 15f;
-    [SerializeField] private Transform _deck;
+    [SerializeField] private Deck _deck;
     [SerializeField] private GridLayoutGroup _grid;
 
     [Header("Placeholder Slots")]
@@ -35,6 +35,8 @@ public class PlayerHandler : Contender // Extending the class contender to manag
 
     public bool IsOnSlot { get => _isOnSlot; set => _isOnSlot = value; }
     public bool IsDragging { get => _isDragging; }
+    public Deck Deck { get => _deck; }
+
 
     private void Start()
     {
@@ -187,7 +189,7 @@ public class PlayerHandler : Contender // Extending the class contender to manag
     private void ReturnCardToHand()
     {
         StopDragging();
-        _draggedCardTransform.SetParent(_deck, false);
+        _draggedCardTransform.SetParent(_deck.transform, false);
         _draggedCardTransform.SetSiblingIndex(_cardCurrentIndex);
     }
 
